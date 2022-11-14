@@ -1,0 +1,281 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .header-nav {
+        display: none;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .block {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .music {
+        flex-wrap: wrap;
+    }
+    .stat {
+        flex-wrap: wrap;
+        padding-top: 30px;
+        justify-content: center;
+    }
+    .stat-card h1 {
+        padding: 0 25px;
+    }
+    .footer img {
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .hero-img img {
+        width: 90%;
+    }
+    .hero-drone img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-bg {
+        left: 29px;
+    }
+    .blocks {
+        flex-direction: column;
+    }
+    .blocks h1 {
+        padding: 20px;
+    }
+    .header-price {
+        flex-direction: column;
+    }
+    .figurs {
+        bottom: 223px;
+        right: 218px;
+    }
+    .blocks {
+        width: 90%;
+    }
+    .hero-drone {
+        bottom: 101px;
+        left: -53px;
+    }
+    .footer-nav  {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-drone {
+        bottom: 49px;
+    }
+
+    .hero-img {
+        width: 90%;
+    }
+
+    .hero-img-title {
+        bottom: 70px;
+        right: 26px;
+    }
+
+    .hero-img-title p {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+
+    .ion {
+        bottom: 35px;
+        right: 39px;
+    }
+
+    .figur {
+        bottom: 351px;
+        right: 156px;
+    }
+
+    .figurs {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        bottom: 47px;
+        left: 40px;
+    }
+
+    .hero-img {
+        height: 320px;
+    }
+
+    .block {
+        justify-content: center;
+    }
+
+    .music-left img {
+        width: 90%;
+    }
+
+    .music-right img {
+        width: 90%;
+    }
+
+    .music-left-title {
+        bottom: 121px;
+        left: 81px;
+    }
+
+    .music-figur {
+        top: 135px;
+    }
+
+    .music-figur2 {
+        top: 46px;
+        left: 368px;
+    }
+
+    .music-right-title {
+        bottom: 101px;
+        left: 56px;
+    }
+
+    .music-icon {
+        top: 146px;
+        left: 62px;
+    }
+
+    .music-left-title h1 {
+        font-size: 21px;
+    }
+
+    .music-right-title h1 {
+        font-size: 21px;
+    }
+
+    .catalog {
+        justify-content: center;
+    }
+
+    .footer a {
+        display: none;
+    }
+}
+
+@media (max-width: 451px) {
+    .hero-title h1 {
+        font-size: 23px;    }
+    .hero-title p {
+        font-size: 13px;    }
+    .hero-img {
+        left: 2px;        width: 398px;        height: 328px;    }
+    .drons {
+        width: 181px;        height: 285px;    }
+    .hero-bg {
+        left: -45px;        width: 374px;        height: 243px;    }
+    .hero-img {
+        left: 19px;        width: 348px;        height: 253px;    }
+    .hero-img {
+        left: 19px;        width: 348px;        height: 281px;    }
+    .hero-img-title {
+        left: 183px;        bottom: 46px;    }
+    .hero-img-title p {
+        font-size: 9px;    }
+    .hero-img-title h2 {
+        font-weight: 700;        font-size: 9px;        color: #FFFFFF;    }
+    .hero-img-title h1 {
+        font-size: 9px;    }
+    .figur {
+        width: 7px;        height: 7px;        bottom: 135px;        right: 171px;    }
+    .icon-center {
+        width: 21px;        height: 4px;        background: #FFFFFF;        margin: 0 10px;    }
+    .icon {
+        width: 24px;        height: 4px;        background: rgba(255, 255, 255, 0.35);    }
+    .figurs {
+        left: -28px;        bottom: 35px;        display: flex;    }
+    .ion {
+        right: -249px;        font-size: 17px;        bottom: -10px;    }
+    .drons {
+        width: 279px;        height: 150px;    }
+    .hero-title button {
+        width: 119px;        height: 36px;        font-size: 11px;    }
+    .blocks h1 {
+        font-size: 15px;        margin-left: 31px;    }
+    .blocks-label label {
+        font-size: 10px;    }
+    .blocks {
+        width: 378px;    }
+    .card h1 {
+        font-size: 13px;    }
+    .per {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .card-title p {
+        font-size: 10px;    }
+    .card-price h2 {
+        font-size: 10px;    }
+    .ionicon, svg {
+        display: block;        height: 80%;        width: 80%;    }
+    .card {
+        width: 183px;        height: 375px;        background: rgba(176, 176, 180, 0.35);        padding: 0 30px;        margin: 10px 0;    }
+    .drs {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .ip {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .chs {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .music-left img {
+        width: 416px;        height: 530px;        margin-left: -6px;    }
+    .music-right img {
+        width: 416px;        height: 317px;        margin-left: -6px;    }
+    .music-figur2 {
+        top: 153px;       left: 324px;   }
+    .music-left-title {
+        position: absolute;        bottom: 227px;        left: 84px;    }
+    .music-figur1 {
+        width: 17px;        height: 17px;        top: 226px;        left: 67px;    }
+
+    .music-figurs2 {
+        top: 50px;        left: 323px;    }
+    .music-left-title h1 {
+        font-size: 17px;    }
+    .music-right-title h1 {
+        font-size: 15px;    }
+    .music-right-title {
+        position: absolute;        bottom: 97px;        left: 95px;    }
+
+    .music-figurs1 {
+        top: 151px;        left: 76px;        width: 17px;        height: 17px;    }
+    .catalog-title {
+        font-size: 19px;    }
+    .tes {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .dro {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .app {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+
+    .wat {
+        margin-left: 32px;        width: 115px;        height: 110px;    }
+    .number-title {
+        font-size: 15px;        padding: 40px 0;    }
+
+    .number h1 {
+        font-size: 20px;    }
+    .number4 {
+        margin-left: 2px;    }
+    .los {
+        width: 168px;    }
+    .footer-right button {
+        display: none;    }
+
+}
